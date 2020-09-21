@@ -2,10 +2,6 @@ variable "Environment" {
   default = ""
 }
 
-variable "Vertical" {
-  default = ""
-}
-
 variable "Project" {
   default = ""
 }
