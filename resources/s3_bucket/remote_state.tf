@@ -2,7 +2,7 @@ terraform {
   backend "s3" {
     encrypt = true
     bucket = "demo-poc-terraform"
-    key    = "terraform/ecr/ecr.tfstate"
+    key    = "terraform/s3/s3.tfstate"
     region = "eu-central-1"
     profile = "poc"
   }
