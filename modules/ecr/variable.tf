@@ -1,7 +1,3 @@
-variable "Environment" {
-  default = ""
-}
-
 variable "Project" {
   default = ""
 }
